@@ -1,0 +1,1056 @@
+{
+  "week_1": [
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "New York Jets"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Los Angeles Chargers",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Houston Texans"
+    },
+    {
+      "winner": "Oakland Raiders",
+      "loser": "Denver Broncos"
+    }
+  ],
+  "week_2": [
+    {
+      "winner": "Tampa Bay Buccaneers",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "Indianapolis Colts",
+      "loser": "Tennessee Titans"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Minnesota Vikings"
+    },
+    {
+      "winner": "Detroit Lions",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "New Orleans Saints"
+    },
+    {
+      "winner": "Chicago Bears",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Atlanta Falcons",
+      "loser": "Philadelphia Eagles"
+    },
+    {
+      "winner": "Cleveland Browns",
+      "loser": "New York Jets"
+    }
+  ],
+  "week_3": [
+    {
+      "winner": "Jacksonville Jaguars",
+      "loser": "Tennessee Titans"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Detroit Lions",
+      "loser": "Philadelphia Eagles"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "New York Jets"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Baltimore Ravens"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Indianapolis Colts",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "New York Giants",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "Carolina Panthers",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Seattle Seahawks"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Chicago Bears",
+      "loser": "Washington Redskins"
+    }
+  ],
+  "week_4": [
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "Green Bay Packers"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Buffalo Bills"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "Cleveland Browns",
+      "loser": "Baltimore Ravens"
+    },
+    {
+      "winner": "New York Giants",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Los Angeles Chargers",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Carolina Panthers",
+      "loser": "Houston Texans"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Oakland Raiders",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "Tampa Bay Buccaneers",
+      "loser": "Los Angeles Rams"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Jacksonville Jaguars",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Chicago Bears",
+      "loser": "Minnesota Vikings"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Cincinnati Bengals"
+    }
+  ],
+  "week_5": [
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Los Angeles Rams"
+    },
+    {
+      "winner": "Arizona Cardinals",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Carolina Panthers",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Oakland Raiders",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "New York Jets"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Tennessee Titans"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "Denver Broncos",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "Indianapolis Colts",
+      "loser": "Kansas City Chiefs"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Cleveland Browns"
+    }
+  ],
+  "week_6": [
+    {
+      "winner": "New England Patriots",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "Carolina Panthers",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Philadelphia Eagles"
+    },
+    {
+      "winner": "Washington Redskins",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "Kansas City Chiefs"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Arizona Cardinals",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Los Angeles Rams"
+    },
+    {
+      "winner": "New York Jets",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "Denver Broncos",
+      "loser": "Tennessee Titans"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Detroit Lions"
+    }
+  ],
+  "week_7": [
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Arizona Cardinals",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Indianapolis Colts",
+      "loser": "Houston Texans"
+    },
+    {
+      "winner": "Jacksonville Jaguars",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Seattle Seahawks"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "Philadelphia Eagles"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "New York Jets"
+    }
+  ],
+  "week_8": [
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "Buffalo Bills"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Jacksonville Jaguars",
+      "loser": "New York Jets"
+    },
+    {
+      "winner": "Detroit Lions",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "Indianapolis Colts",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Los Angeles Chargers",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Kansas City Chiefs"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Miami Dolphins"
+    }
+  ],
+  "week_9": [
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Carolina Panthers",
+      "loser": "Tennessee Titans"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "Miami Dolphins",
+      "loser": "New York Jets"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Minnesota Vikings"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "Oakland Raiders",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Los Angeles Chargers",
+      "loser": "Green Bay Packers"
+    },
+    {
+      "winner": "Denver Broncos",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "New England Patriots"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "New York Giants"
+    }
+  ],
+  "week_10": [
+    {
+      "winner": "Oakland Raiders",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Chicago Bears",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Tampa Bay Buccaneers",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Kansas City Chiefs"
+    },
+    {
+      "winner": "New York Jets",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "Atlanta Falcons",
+      "loser": "New Orleans Saints"
+    },
+    {
+      "winner": "Cleveland Browns",
+      "loser": "Buffalo Bills"
+    },
+    {
+      "winner": "Miami Dolphins",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Los Angeles Rams"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "San Francisco 49ers"
+    }
+  ],
+  "week_11": [
+    {
+      "winner": "Cleveland Browns",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "Indianapolis Colts",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Atlanta Falcons",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "New York Jets",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Houston Texans"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Oakland Raiders",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Philadelphia Eagles"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Los Angeles Chargers"
+    }
+  ],
+  "week_12": [
+    {
+      "winner": "Houston Texans",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Tampa Bay Buccaneers",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "Washington Redskins",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Philadelphia Eagles"
+    },
+    {
+      "winner": "New York Jets",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "Cleveland Browns",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Chicago Bears",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Green Bay Packers"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Los Angeles Rams"
+    }
+  ],
+  "week_13": [
+    {
+      "winner": "Chicago Bears",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Atlanta Falcons"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "San Francisco 49ers"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "Miami Dolphins",
+      "loser": "Philadelphia Eagles"
+    },
+    {
+      "winner": "Tampa Bay Buccaneers",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "Cincinnati Bengals",
+      "loser": "New York Jets"
+    },
+    {
+      "winner": "Washington Redskins",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Denver Broncos",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "New England Patriots"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Minnesota Vikings"
+    }
+  ],
+  "week_14": [
+    {
+      "winner": "Chicago Bears",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Buffalo Bills"
+    },
+    {
+      "winner": "Atlanta Falcons",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "Tampa Bay Buccaneers",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "New York Jets",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "New Orleans Saints"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Denver Broncos",
+      "loser": "Houston Texans"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Cleveland Browns",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Los Angeles Chargers",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "New England Patriots"
+    },
+    {
+      "winner": "Pittsburgh Steelers",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Seattle Seahawks"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "New York Giants"
+    }
+  ],
+  "week_15": [
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "New York Jets"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Seattle Seahawks",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "Houston Texans",
+      "loser": "Tennessee Titans"
+    },
+    {
+      "winner": "New York Giants",
+      "loser": "Miami Dolphins"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Denver Broncos"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "Tampa Bay Buccaneers",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Minnesota Vikings",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Jacksonville Jaguars",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Arizona Cardinals",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Atlanta Falcons",
+      "loser": "San Francisco 49ers"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "Los Angeles Rams"
+    },
+    {
+      "winner": "Buffalo Bills",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Indianapolis Colts"
+    }
+  ],
+  "week_16": [
+    {
+      "winner": "Houston Texans",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "New England Patriots",
+      "loser": "Buffalo Bills"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Los Angeles Rams"
+    },
+    {
+      "winner": "New York Giants",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Tennessee Titans"
+    },
+    {
+      "winner": "New York Jets",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "Miami Dolphins",
+      "loser": "Cincinnati Bengals"
+    },
+    {
+      "winner": "Indianapolis Colts",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "Atlanta Falcons",
+      "loser": "Jacksonville Jaguars"
+    },
+    {
+      "winner": "Oakland Raiders",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Denver Broncos",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Arizona Cardinals",
+      "loser": "Seattle Seahawks"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "Dallas Cowboys"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Chicago Bears"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Minnesota Vikings"
+    }
+  ],
+  "week_17": [
+    {
+      "winner": "Cincinnati Bengals",
+      "loser": "Cleveland Browns"
+    },
+    {
+      "winner": "New Orleans Saints",
+      "loser": "Carolina Panthers"
+    },
+    {
+      "winner": "New York Jets",
+      "loser": "Buffalo Bills"
+    },
+    {
+      "winner": "Atlanta Falcons",
+      "loser": "Tampa Bay Buccaneers"
+    },
+    {
+      "winner": "Miami Dolphins",
+      "loser": "New England Patriots"
+    },
+    {
+      "winner": "Chicago Bears",
+      "loser": "Minnesota Vikings"
+    },
+    {
+      "winner": "Kansas City Chiefs",
+      "loser": "Los Angeles Chargers"
+    },
+    {
+      "winner": "Green Bay Packers",
+      "loser": "Detroit Lions"
+    },
+    {
+      "winner": "Baltimore Ravens",
+      "loser": "Pittsburgh Steelers"
+    },
+    {
+      "winner": "Los Angeles Rams",
+      "loser": "Arizona Cardinals"
+    },
+    {
+      "winner": "Philadelphia Eagles",
+      "loser": "New York Giants"
+    },
+    {
+      "winner": "Jacksonville Jaguars",
+      "loser": "Indianapolis Colts"
+    },
+    {
+      "winner": "Tennessee Titans",
+      "loser": "Houston Texans"
+    },
+    {
+      "winner": "Denver Broncos",
+      "loser": "Oakland Raiders"
+    },
+    {
+      "winner": "Dallas Cowboys",
+      "loser": "Washington Redskins"
+    },
+    {
+      "winner": "San Francisco 49ers",
+      "loser": "Seattle Seahawks"
+    }
+  ]
+}
