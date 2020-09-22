@@ -9,6 +9,7 @@ export default function Navbar() {
                 <button>Free Pick</button>
                 <button>Sign Up</button>
                 <button>Log In</button>
+                <p>Test</p>
             </div>
         </div>
     )
