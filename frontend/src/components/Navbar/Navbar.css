@@ -1,0 +1,21 @@
+.NavbarItems{
+    background-color: black;
+    opacity: 0.9;
+}
+
+.Logo-Image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 0%;
+}
+
+.signUp{
+    position: absolute;
+    bottom: 0%;
+}
+
