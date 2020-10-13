@@ -69,7 +69,7 @@ const teamSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    rushing_offense: {
+    rushing_offense_yards: {
         type: Number,
         required: true
     },
@@ -77,7 +77,7 @@ const teamSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    passing_defense: {
+    passing_defense_yards_allowed: {
         type: Number,
         required: true
     },
@@ -85,7 +85,7 @@ const teamSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    rushing_defense: {
+    rushing_defense_yards_allowed: {
         type: Number,
         required: true
     },

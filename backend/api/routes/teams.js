@@ -39,18 +39,27 @@ router.post('/', async(req, res) => {
         turnovers_recieved_rank: req.body.turnovers_recieved_rank,
         passing_offense_yards: req.body.passing_offense_yards,
         passing_offense_rank: req.body.passing_offense_rank,
-        rushing_offense: req.body.rushing_offense,
+        rushing_offense_yards: req.body.rushing_offense_yards,
         rushing_offense_rank: req.body.rushing_offense_rank,
-        passing_defense: req.body.passing_defense,
+        passing_defense_yards_allowed: req.body.passing_defense_yards_allowed,
         passing_defense_rank: req.body.passing_defense_rank,
-        rushing_defense: req.body.rushing_defense,
+        rushing_defense_yards_allowed: req.body.rushing_defense_yards_allowed,
         rushing_defense_rank: req.body.rushing_defense_rank,
         average_time_of_possession: {
             minutes: req.body.average_time_of_possession.minutes,
             seconds: req.body.average_time_of_possession.seconds
         },
         opponents_with_outcome: req.body.opponents_with_outcome
-    })
+    });
+
+
+    try {
+        const newTeam = await team.save();
+        res.status(201).json(newTeam);
+    }
+    catch (err) {
+        res.status(400).json({ message: err.message });
+    }
 })
 
 //update one
