@@ -1,0 +1,21 @@
+version: '2'
+
+services: 
+    vue:
+        build: frontend
+        ports:
+            - "8080:8080"
+        volumes:
+            - ./frontend:/app
+
+    express:
+        build: backend/api
+        ports:
+            - "3000:3000"
+        links:
+            - database
+
+    database:
+        image: mongo
+        ports:
+            - "27017:27017"
