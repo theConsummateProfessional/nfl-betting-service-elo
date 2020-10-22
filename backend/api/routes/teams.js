@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
 });
 
 //Getting one
-router.get('/:id', getTeam, (req, res) => {
+router.get('/:mascot/:year', getTeam, (req, res) => {
     res.send(res.team);
 });
 
@@ -62,7 +62,88 @@ router.post('/', async(req, res) => {
     }
 })
 
-//update one
+//update one by mascot and year
+router.patch('/:mascot/:year', getTeam, async(req, res) => {
+    if(req.body.city != null){
+        res.team.body = req.body.city;
+    }
+    if(req.body.mascot != null){
+        res.team.mascot = req.body.mascot;
+    }
+    if(req.body.year != null){
+        res.team.year = req.body.year;
+    }
+    if(req.body.yards_gained != null){
+        res.team.yards_gained = req.body.yards_gained;
+    }
+    if(req.body.yards_allowed != null){
+        res.team.yards_allowed = req.body.yards_allowed;
+    }
+    if(req.body.offense_yards_rank != null){
+        res.team.offense_yards_rank = req.body.offense_yards_rank;
+    }
+    if(req.body.defense_yards_rank != null){
+        res.team.defense_yards_rank = req.body.defense_yards_rank;
+    }
+    if(req.body.scoring_offense != null){
+        res.team.scoring_offense = req.body.scoring_offense;
+    }
+    if(req.body.scoring_defense != null){
+        res.team.scoring_defense = req.body.scoring_defense;
+    }
+    if(req.body.points_allowed != null){
+        res.team.points_allowed = req.body.points_allowed;
+    }
+    if(req.body.points_scored != null){
+        res.team.points_scored = req.body.points_scored;
+    }
+    if(req.body.num_turnovers_commited != null){
+        res.team.num_turnovers_commited = req.body.num_turnovers_commited;
+    }
+    if(req.body.turnover_committed_rank != null){
+        res.team.turnover_committed_rank = req.body.turnover_committed_rank;
+    }
+    if(req.body.turnovers_recieved != null){
+        res.team.turnovers_recieved = req.body.turnovers_recieved;
+    }
+    if(req.body.turnovers_recieved_rank != null){
+        res.team.turnovers_recieved_rank = req.body.turnovers_recieved_rank;
+    }
+    if(req.body.passing_offense_yards != null){
+        res.team.passing_offense_yards = req.body.passing_offense_yards;
+    }
+    if(req.body.passing_offense_rank != null){
+        res.team.passing_offense_rank = req.body.passing_offense_rank;
+    }
+    if(req.body.rushing_offense_yards != null){
+        res.team.rushing_offense_yards = req.body.rushing_offense_yards;
+    }
+    if(req.body.rushing_offense_rank != null){
+        res.team.rushing_offense_rank = req.body.rushing_offense_rank;
+    }
+    if(req.body.passing_defense_yards_allowed != null){
+        res.team.passing_defense_yards_allowed = req.body.passing_defense_yards_allowed;
+    }
+    if(req.body.passing_defense_rank != null){
+        res.team.passing_defense_rank = req.body.passing_defense_rank;
+    }
+    if(req.body.rushing_defense_yards_allowed != null){
+        res.team.rushing_defense_yards_allowed = req.body.rushing_defense_yards_allowed;
+    }
+    if(req.body.rushing_defense_rank != null){
+        res.team.rushing_defense_rank = req.body.rushing_defense_rank;
+    }
+    if(req.body.average_time_of_possession.minutes != null){
+        res.team.average_time_of_possession.minutes = req.body.average_time_of_possession.minutes;
+    }
+    if(req.body.average_time_of_possession.seconds != null){
+        res.team.average_time_of_possession.seconds = req.body.average_time_of_possession.seconds;
+    }
+    if(req.body.opponents_with_outcome != null){
+        res.team.opponents_with_outcome = req.body.opponents_with_outcome;
+    }
+    
+})
 
 //Deleting one
 router.delete('/:id', getTeam, async (req, res) => {
