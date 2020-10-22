@@ -15,9 +15,14 @@ router.get('/', async (req, res) => {
 });
 
 //Getting one
-router.get('/:mascot/:year', getTeam, (req, res) => {
+router.get('/:id', getTeamById, (req, res) => {
     res.send(res.team);
 });
+
+//Getting by mascot and year
+router.get('/:mascot/:year', getTeamByMascotAndYear, (req, res) => {
+    res.send(res.team);
+})
 
 //Creating one
 router.post('/', async(req, res) => {
@@ -63,7 +68,7 @@ router.post('/', async(req, res) => {
 })
 
 //update one by mascot and year
-router.patch('/:mascot/:year', getTeam, async(req, res) => {
+router.patch('/:id', getTeamById, async(req, res) => {
     if(req.body.city != null){
         res.team.body = req.body.city;
     }
@@ -145,8 +150,11 @@ router.patch('/:mascot/:year', getTeam, async(req, res) => {
     
 })
 
+//pushing new opponent for existing team
+router.patch('/')
+
 //Deleting one
-router.delete('/:id', getTeam, async (req, res) => {
+router.delete('/:id', getTeamById, async (req, res) => {
     try {
         await res.team.remove();
         res.json({ message: 'Deleted Team' });
@@ -156,7 +164,7 @@ router.delete('/:id', getTeam, async (req, res) => {
     }
 })
 
-async function getTeam(req, res, next) {
+async function getTeamById(req, res, next) {
     let team;
     try {
         team = await Team.findById(req.params.id);
@@ -166,6 +174,22 @@ async function getTeam(req, res, next) {
     }
     catch(err) {
         return res.status(500).json({ message: err.message });
+    }
+
+    res.team = team;
+    next();
+}
+
+async function getTeamByMascotAndYear(req, res, next){
+    let team;
+    try {
+        team = await Team.find({mascot: req.params.mascot, year: req.params.year});
+        if(team == null){
+            return res.status(400).json({ message: 'Cannot find Team'});
+        }
+    }
+    catch(err){
+        return res.status(500).json({message: err.message})
     }
 
     res.team = team;
