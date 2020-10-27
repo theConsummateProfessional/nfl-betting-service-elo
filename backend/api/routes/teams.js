@@ -151,7 +151,21 @@ router.patch('/:id', getTeamById, async(req, res) => {
 })
 
 //pushing new opponent for existing team
-router.patch('/')
+router.patch('/:mascot/:year', async (req, res) =>{
+    if(!req.body.opponents_with_outcome  != null){
+        let team = await Team.findOneAndUpdate(
+            {mascot: req.params.mascot, year: req.params.year},
+            {$addToSet : {opponents_with_outcome: req.body.opponents_with_outcome}},
+            (err) => {
+                if(err){
+                    res.status(400).json({ message: err.message});
+                }
+                else{
+                    res.status(201).json({message: 'Update successful'});
+                }
+            });
+    }
+});
 
 //Deleting one
 router.delete('/:id', getTeamById, async (req, res) => {

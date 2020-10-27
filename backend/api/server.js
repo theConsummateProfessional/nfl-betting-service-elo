@@ -3,7 +3,7 @@ const app = express();
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-mongoose.connect('mongodb://database/teams', { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect('mongodb://database/teams', { useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false });
 const db = mongoose.connection;
 db.on('error', (error) => console.log(error));
 db.once('open', (error) => console.log('Connected to Database'));
