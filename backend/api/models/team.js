@@ -120,6 +120,10 @@ const teamSchema = new mongoose.Schema({
                 week: {
                     type: Number,
                     required: true
+                },
+                isHome: {
+                    type: Boolean,
+                    required: true
                 }
             }
         ]
