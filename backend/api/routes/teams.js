@@ -147,7 +147,14 @@ router.patch('/:id', getTeamById, async(req, res) => {
     if(req.body.opponents_with_outcome != null){
         res.team.opponents_with_outcome = req.body.opponents_with_outcome;
     }
-    
+
+    try {
+        const newTeam = await res.team.save();
+        res.status(201).json(newTeam);
+    }
+    catch(err) {
+        res.status(400).status({ message: err.message });
+    }
 })
 
 //pushing new opponent for existing team
