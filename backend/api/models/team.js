@@ -21,22 +21,6 @@ const teamSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    offense_yards_rank: {
-        type: Number,
-        required: true
-    },
-    defense_yards_rank: {
-        type: Number,
-        required: true
-    },
-    scoring_offense: {
-        type: Number,
-        required: true
-    },
-    scoring_defense: {
-        type: Number,
-        required: true
-    },
     points_allowed: {
         type: Number,
         required: true
@@ -49,15 +33,7 @@ const teamSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    turnover_committed_rank: {
-        type: Number,
-        required: true
-    },
     turnovers_recieved: {
-        type: Number,
-        required: true
-    },
-    turnovers_recieved_rank: {
         type: Number,
         required: true
     },
@@ -65,15 +41,23 @@ const teamSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    passing_offense_rank: {
-        type: Number,
-        required: true
-    },
     rushing_offense_yards: {
         type: Number,
         required: true
     },
-    rushing_offense_rank: {
+    completions: {
+        type: Number,
+        required: true
+    },
+    pass_attempts: {
+        type: Number,
+        required: true
+    },
+    completion_percentage: {
+        type: Number,
+        required: true
+    },
+    rush_attempts: {
         type: Number,
         required: true
     },
@@ -81,15 +65,47 @@ const teamSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    passing_defense_rank: {
-        type: Number,
-        required: true
-    },
     rushing_defense_yards_allowed: {
         type: Number,
         required: true
     },
-    rushing_defense_rank: {
+    completions_allowed: {
+        type: Number,
+        required: true
+    },
+    rush_attempts_tried: {
+        type: Number,
+        required: true
+    },
+    pass_attempts_tried: {
+        type: Number,
+        required: true
+    },
+    completion_percentage_allowed: {
+        type: Number,
+        required: true
+    },
+    num_sacks: {
+        type: Number, 
+        required: true
+    },
+    elo: {
+        type: Number,
+        required: true
+    },
+    num_penalties: {
+        type: Number,
+        required: true
+    },
+    penalty_yards: {
+        type: Number,
+        required: true
+    },
+    first_downs_gained: {
+        type: Number,
+        required: true
+    },
+    first_downs_allowed: {
         type: Number,
         required: true
     },
@@ -103,30 +119,94 @@ const teamSchema = new mongoose.Schema({
             required: true
         }
     },
-    opponents_with_outcome: [
-            {
-                opponent_name: {
-                    type: String,
-                    required: true
-                },
-                team_score: {
-                    type: Number,
-                    required: true
-                },
-                opponent_score: {
-                    type: Number,
-                    required: true
-                },
-                week: {
-                    type: Number,
-                    required: true
-                },
-                isHome: {
-                    type: Boolean,
-                    required: true
-                }
-            }
-        ]
+    average_yards_gained: {
+        type: Number,
+        required: true
+    },
+    average_yards_allowed: {
+        type: Number,
+        required: true
+    },
+    average_points_allowed: {
+        type: Number,
+        required: true
+    },
+    average_points_scored: {
+        type: Number,
+        required: true
+    },
+    average_turnovers_committed: {
+        type: Number,
+        required: true
+    },
+    average_turnovers_recieved: {
+        type: Number,
+        required: true
+    },
+    average_sacks: {
+        type: Number,
+        required: true
+    },
+    average_penalties: {
+        type: Number,
+        required: true
+    },
+    average_penalty_yards: {
+        type: Number,
+        required: true
+    },
+    average_rush_attempts: {
+        type: Number,
+        required: true
+    },
+    average_rush_attempts_tried: {
+        type: Number,
+        required: true
+    },
+    average_rush_yards: {
+        type: Number,
+        required: true
+    },
+    average_rush_yards_allowed: {
+        type: Number,
+        required: true
+    },
+    average_completions: {
+        type: Number,
+        required: true
+    },
+    average_pass_attempts: {
+        type: Number,
+        required: true
+    },
+    average_pass_yards: {
+        type: Number,
+        required: true
+    },
+    average_pass_attempts_tried: {
+        type: Number,
+        required: true
+    },
+    average_pass_yards_allowed: {
+        type: Number,
+        required: true
+    },
+    average_first_downs_gained: {
+        type: Number,
+        required: true
+    },
+    average_first_downs_allowed: {
+        type: Number,
+        required: true
+    },
+    average_third_down_conversion_rate: {
+        type: Number,
+        required: true
+    },
+    average_third_down_conversion_rate_allowed: {
+        type: Number,
+        required: true
+    }
 });
 
 module.exports = mongoose.model('Team', teamSchema);

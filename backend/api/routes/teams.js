@@ -32,29 +32,54 @@ router.post('/', async(req, res) => {
         year: req.body.year,
         yards_gained: req.body.yards_gained,
         yards_allowed: req.body.yards_allowed,
-        offense_yards_rank: req.body.offense_yards_rank,
-        defense_yards_rank: req.body.defense_yards_rank,
-        scoring_offense: req.body.scoring_offense,
-        scoring_defense: req.body.scoring_defense,
         points_allowed: req.body.points_allowed,
         points_scored: req.body.points_scored,
         num_turnovers_commited: req.body.num_turnovers_commited,
-        turnover_committed_rank: req.body.turnover_committed_rank,
         turnovers_recieved: req.body.turnovers_recieved,
-        turnovers_recieved_rank: req.body.turnovers_recieved_rank,
         passing_offense_yards: req.body.passing_offense_yards,
-        passing_offense_rank: req.body.passing_offense_rank,
         rushing_offense_yards: req.body.rushing_offense_yards,
-        rushing_offense_rank: req.body.rushing_offense_rank,
+        completions: req.body.completions,
+        pass_attempts: req.body.pass_attempts,
+        completion_percentage: req.body.completion_percentage,
+        rush_attempts: req.body.rush_attempts,
         passing_defense_yards_allowed: req.body.passing_defense_yards_allowed,
-        passing_defense_rank: req.body.passing_defense_rank,
         rushing_defense_yards_allowed: req.body.rushing_defense_yards_allowed,
-        rushing_defense_rank: req.body.rushing_defense_rank,
+        completions_allowed: req.body.completions_allowed,
+        rush_attempts_tried: req.body.rush_attempts_tried,
+        pass_attempts_tried: req.body.pass_attempts_tried,
+        completion_percentage_allowed: req.body.completion_percentage_allowed,
+        num_sacks: req.body.num_sacks,
+        elo: req.body.elo,
+        num_penalties: req.body.num_penalties,
+        penalty_yards: req.body.penalty_yards,
+        first_downs_gained: req.body.first_downs_gained,
+        first_downs_allowed: req.body.first_downs_allowed,
         average_time_of_possession: {
             minutes: req.body.average_time_of_possession.minutes,
             seconds: req.body.average_time_of_possession.seconds
         },
-        opponents_with_outcome: req.body.opponents_with_outcome
+        average_yards_gained: req.body.average_yards_gained,
+        average_yards_allowed: req.body.average_yards_allowed,
+        average_points_allowed: req.body.average_points_allowed,
+        average_points_scored: req.body.average_points_scored,
+        average_turnovers_committed: req.body.average_turnovers_committed,
+        average_turnovers_recieved: req.body.average_turnovers_recieved,
+        average_sacks: req.body.average_sacks,
+        average_penalties: req.body.average_penalties,
+        average_penalty_yards: req.body.average_penalty_yards,
+        average_rush_attempts: req.body.average_rush_attempts,
+        average_rush_attempts_tried: req.body.average_rush_attempts_tried,
+        average_rush_yards: req.body.average_rush_yards,
+        average_rush_yards_allowed: req.body.average_rush_yards_allowed,
+        average_completions: req.body.average_completions,
+        average_pass_attempts: req.body.average_pass_attempts,
+        average_pass_yards: req.body.average_pass_yards,
+        average_pass_attempts_tried: req.body.average_pass_attempts_tried,
+        average_pass_yards_allowed: req.body.average_pass_yards_allowed,
+        average_first_downs_gained: req.body.average_first_downs_gained,
+        average_first_downs_allowed: req.body.average_first_downs_allowed,
+        average_third_down_conversion_rate: req.body.average_third_down_conversion_rate,
+        average_third_down_conversion_rate_allowed: req.body.average_third_down_conversion_rate_allowed
     });
 
 
@@ -156,23 +181,6 @@ router.patch('/:id', getTeamById, async(req, res) => {
         res.status(400).status({ message: err.message });
     }
 })
-
-//pushing new opponent for existing team
-router.patch('/:mascot/:year', async (req, res) =>{
-    if(!req.body.opponents_with_outcome  != null){
-        let team = await Team.findOneAndUpdate(
-            {mascot: req.params.mascot, year: req.params.year},
-            {$addToSet : {opponents_with_outcome: req.body.opponents_with_outcome}},
-            (err) => {
-                if(err){
-                    res.status(400).json({ message: err.message});
-                }
-                else{
-                    res.status(201).json({message: 'Update successful'});
-                }
-            });
-    }
-});
 
 //Deleting one
 router.delete('/:id', getTeamById, async (req, res) => {
