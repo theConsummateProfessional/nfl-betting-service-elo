@@ -20,7 +20,7 @@ router.get('/:id', getTeamById, (req, res) => {
 });
 
 //Getting by mascot and year
-router.get('/:mascot/:year', getTeamByMascotAndYear, (req, res) => {
+router.get('/:mascot/:year/:week', getTeamByMascotYearAndWeek, (req, res) => {
     res.send(res.team);
 })
 
@@ -30,6 +30,7 @@ router.post('/', async(req, res) => {
         city: req.body.city,
         mascot: req.body.mascot,
         year: req.body.year,
+        week: req.body.week,
         yards_gained: req.body.yards_gained,
         yards_allowed: req.body.yards_allowed,
         points_allowed: req.body.points_allowed,
@@ -54,10 +55,7 @@ router.post('/', async(req, res) => {
         penalty_yards: req.body.penalty_yards,
         first_downs_gained: req.body.first_downs_gained,
         first_downs_allowed: req.body.first_downs_allowed,
-        average_time_of_possession: {
-            minutes: req.body.average_time_of_possession.minutes,
-            seconds: req.body.average_time_of_possession.seconds
-        },
+        average_time_of_possession: req.body.average_time_of_possession,
         average_yards_gained: req.body.average_yards_gained,
         average_yards_allowed: req.body.average_yards_allowed,
         average_points_allowed: req.body.average_points_allowed,
@@ -223,6 +221,19 @@ async function getTeamByMascotAndYear(req, res, next){
 
     res.team = team;
     next();
+}
+
+async function getTeamByMascotYearAndWeek(req, res, next){
+    let team;
+    try {
+        team = await Team.find({mascot: req.params.mascot, year: req.params.year, week: req.params.week});
+        if(team == null){
+            return res.status(400).json({ message: 'Cannot find Team'});
+        }
+    }
+    catch(err){
+        res.status(500).json({message: err.message})
+    }
 }
 
 module.exports = router;

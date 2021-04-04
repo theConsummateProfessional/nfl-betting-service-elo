@@ -13,7 +13,9 @@ app.use(cors());
 
 const teamRouter = require('./routes/teams');
 const gameRouter = require('./routes/games');
+const predictionRouter = require('./routes/predictions')
 app.use('/teams', teamRouter);
 app.use('/games', gameRouter);
+app.use('/predictions', predictionRouter);
 
 app.listen(3000, () => console.log('Server Started'));

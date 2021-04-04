@@ -13,6 +13,10 @@ const teamSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    week: {
+        type: Number,
+        required: true
+    },
     yards_gained: {
         type: Number,
         required: true
@@ -110,14 +114,8 @@ const teamSchema = new mongoose.Schema({
         required: true
     },
     average_time_of_possession: {
-        minutes: {
-            type: Number,
-            required: true
-        },
-        seconds: {
-            type: Number,
-            required: true
-        }
+        type: Number,
+        required: true
     },
     average_yards_gained: {
         type: Number,
