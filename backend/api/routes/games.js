@@ -15,7 +15,7 @@ router.get('/', async(req, res) => {
 
 //Getting one
 router.get('/:id', get_game_by_id, (req, res) => {
-    res.send(res.game);
+    res.send(res.game); //comment example
 });
 
 //Getting one by year and week
